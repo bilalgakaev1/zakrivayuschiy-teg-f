@@ -1,1 +1,1 @@
-https://bilalgakaev1.github.io/zakrivayuschiy-teg-f/
+https://github.com/bilalgakaev1/zakrivayuschiy-teg-f
