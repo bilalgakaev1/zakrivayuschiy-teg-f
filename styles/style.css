@@ -74,7 +74,7 @@
 }
 
 .card__title {
-  font-weight: var(--wght-title-text);
+  font-variation-settings: 'wght' var(--wght-title-text);
   font-size: inherit;
   padding: 5px 10px;
 }
@@ -141,9 +141,11 @@
 
 .card__text {
   font-family: var(--main-font);
-  font-weight: var(--wght-main-text);
+  font-variation-settings: 'wght' var(--wght-main-text);
   margin-block: 25px;
   margin-inline: 25px;
+  line-height: 21px;
+  padding-right: 1px;
 }
 
 .card__text p:last-child {
