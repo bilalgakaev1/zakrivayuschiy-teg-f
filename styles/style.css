@@ -178,11 +178,11 @@
 }
 
 .button-save {
-  min-inline-size: clamp(330px, 100%, 335px);
+  max-inline-size: clamp(330px, 100%, 339px);
   min-height: 55px;
   cursor: pointer;
   margin: auto auto;
-  padding: 15px 19px;
+  padding: 15px 20px;
   display: grid;
   grid-template-columns: min-content 1fr;
   gap: 8px;
@@ -221,7 +221,7 @@
 .card__like-button:hover .button__text {
   position: relative;
   z-index: 1;
-  color: #fff;
+  color: #000;
   transition: color 0.5s ease-in-out;
 }
 
@@ -259,7 +259,7 @@
 }
 
 .saveMember {
-  inline-size: 360px;
+  max-inline-size: 360px;
   min-block-size: 191px;
   padding: 30px;
   border: 2px solid #000;
@@ -366,6 +366,7 @@
   .button-save {
     padding: 15px 20px;
     display: block;
+
   }
 
   .saveMember {

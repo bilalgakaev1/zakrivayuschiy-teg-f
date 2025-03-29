@@ -10,32 +10,35 @@
 
 */
 @keyframes likeButton {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
+  from {
+    transform: translateX(-100%);
   }
-  
-  @keyframes likeScale {
-    from {
-      scale: 1;
-      transform-origin: center;
-    }
-    to {
-      scale: 1.25;
-      transform-origin: center;
-    }
+
+  to {
+    transform: translateX(0);
   }
-  
-  @keyframes likeSparks {
-    from {
-      opacity: 0;
-      fill: none;
-    }
-    to {
-      opacity: 1;
-      fill: var(--animation-fill-color);
-    }
+}
+
+@keyframes likeScale {
+  from {
+    scale: 1;
+    transform-origin: center;
   }
+
+  to {
+    scale: 1.25;
+    transform-origin: center;
+  }
+}
+
+@keyframes likeSparks {
+  from {
+    opacity: 0;
+    fill: none;
+  }
+
+  to {
+    opacity: 1;
+    fill: var(--animation-fill-color);
+  }
+}
